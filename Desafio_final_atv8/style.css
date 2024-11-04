@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('fundo_rock.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 117, 117); 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px; 
+    border-radius: 10px;
+    max-width: 350px; 
+    margin: 0 auto; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em; 
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #8b2727; 
+    color: white;
+    border: none;
+    padding: 12px; 
+    border-radius: 5px;
+    font-size: 1.1em; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #5b1a1a;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8em; 
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif; 
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+}
